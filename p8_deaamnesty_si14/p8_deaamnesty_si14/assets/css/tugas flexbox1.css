@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+#main2 {
+    display: flex;
+   
+}
+
+nav {
+    background-color: pink;
+    width: 300px;
+    height: 650px;
+}
+
+header, footer {
+    background-color: khaki;
+    width: 1200px;
+    height: 150px;
+}
+
+aside {
+    background-color: aqua;
+    height: 350px;
+    width: 300px;
+}
+
+article {
+    width: 900px;
+}
