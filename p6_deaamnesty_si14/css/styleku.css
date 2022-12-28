@@ -1,0 +1,13 @@
+body{
+    background-color: wheat;
+    
+}
+
+#header {
+    background-color: orangered;
+    padding: 15px;
+}
+
+.header1 {
+    text-align: center;
+}

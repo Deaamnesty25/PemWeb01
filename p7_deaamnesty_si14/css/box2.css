@@ -1,0 +1,48 @@
+.container{
+    margin: 20px;
+}
+
+.hijau{
+    background-color: rgb(107, 207, 107);
+    width: 1310px;
+    height: 140px;
+}
+
+.kuning1{
+    background-color: yellow ;
+    width: 230px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.kuning2{
+    background-color: yellow;
+    width: 230px;
+    height: 150px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.gabungan{
+    float: left;
+}
+
+.merah{
+    background-color: rgb(226, 17, 17);
+    width: 1000px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    float: right;
+}
+
+.biru{
+    background-color: rgb(75, 166, 240);
+    width: 1000px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    float: right;
+}
+

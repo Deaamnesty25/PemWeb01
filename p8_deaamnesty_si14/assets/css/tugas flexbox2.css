@@ -1,0 +1,23 @@
+body
+    {
+        background-color: rgb(219, 148, 139);
+    }
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header, footer {
+        background-color:rgb(153, 181, 192);
+        height: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    aside {
+        background-color: rgb(153, 181, 192) ; 
+        height: 400px; 
+        width: 300px; 
+        margin-right: 10px;
+    }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 4 Tugas</title>
+</head>
+<body>
+    <h2>Jumlah Dua Bilangan</h2>
+    <form>
+        <input type="Bilangan" id="Angka1" onchange="hitung()">
+        <br>
+        + 
+        <br>
+        <input type="Bilangan" id="Angka2" onchange="hitung()">
+        <br>
+        =
+        <br>
+        <input type="text" id="Hasil Akhir" onchange="hitung()">
+    </form>
+
+
+    <script>
+        function hitung() {
+            let Angka1 = document.getElementById("Angka1").value;
+            let Angka2 = document.getElementById("Angka2").value;
+            let hitung = +Angka1 + +Angka2;
+
+            document.getElementById("Hasil Akhir").value = hitung;
+        }
+    </script>
+</body>
+</html>
